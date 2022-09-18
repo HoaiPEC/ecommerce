@@ -9,10 +9,11 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt'
         },
         {
-            'name': 'Free Shirt',
+            'name': 'Free Shirt 1',
             'category': 'Shirts',
             'image': '/images/shirt2.jpg',
             'price': 70,
@@ -20,7 +21,8 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt-1'
         },
         {
             'name': 'Free Shirt',
@@ -31,7 +33,8 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt-2'
         },
         {
             'name': 'Free Shirt',
@@ -42,7 +45,8 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt-3'
         },
         {
             'name': 'Free Shirt',
@@ -53,7 +57,8 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt-4'
         },
         {
             'name': 'Free Shirt',
@@ -64,7 +69,8 @@ const data = {
             'rating': 4.5,
             'numReviews': 10,
             'countInStock': 100,
-            'description': 'A popular shirt'
+            'description': 'A popular shirt',
+            'slug': 'free-shirt-6'
         },
     ],
 };
