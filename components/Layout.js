@@ -4,13 +4,14 @@ import { AppBar, Toolbar, Typography, Container, Link } from "@mui/material";
 import useStyles from "../utils/styles";
 import NextLink from 'next/link';
 
-export default function Layout({children}) {
+export default function Layout({title, children, description}) {
     const classes = useStyles();
 
     return (
         <div>
             <Head>
-                <title>Curtain</title>
+                <title>{title ? `${title}` : 'Curtain'}</title>
+                {description && <meta name="description" content={description}></meta>}
             </Head>
             <AppBar positon="static" className={classes.navbar}>
                 <Toolbar>

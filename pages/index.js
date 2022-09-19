@@ -15,12 +15,14 @@ import {
 } from "@mui/material";
 import data from "../utils/data";
 import NextLink from 'next/link';
+import useStyles from "../utils/styles";
 
 
 export default function Home() {
+    const classes = useStyles()
     return (
     <Layout>
-        <div>
+        <div className={classes.homepageSection}>
             <h1>
                 Products
             </h1>
